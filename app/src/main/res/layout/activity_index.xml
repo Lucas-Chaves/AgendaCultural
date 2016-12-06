@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_index"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding ="@dimen/activity_vertical_margin"
+    android:background="@color/back"
+    tools:context="ihc.com.br.agendacultural.Index">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btninit"
+        android:layout_below="@+id/logo"
+        android:text="Agenda Cultural"
+        android:layout_marginTop="20dp"
+        android:background="@color/btn"
+        android:textColor="#fff"/>
+</RelativeLayout>

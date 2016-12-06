@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_eventos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="ihc.com.br.agendacultural.eventos">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/event"
+        android:id="@+id/imgevent"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtagenda"
+        android:layout_below="@+id/imgevent"
+        android:text="Selecione a data desejada:"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/btn"/>
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="25dp"
+        android:id="@+id/spndias"
+        android:layout_below="@+id/txtagenda"
+        android:layout_marginTop="30dp"
+        android:entries="@array/Dias">
+    </Spinner>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/btnevent"
+        android:layout_below="@+id/spndias"
+        android:layout_centerHorizontal="true"
+        android:text="Eventos"
+        android:background="@color/btn"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

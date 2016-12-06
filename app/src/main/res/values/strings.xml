@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Agenda Cultural</string>
+
+    <string-array name="Dias">
+        <item>Selecione o dia</item>
+        <item>30/11/2016</item>
+        <item>17/10/2016</item>
+    </string-array>
+
+    <string-array name="eventos">
+        <item>12:00 - PRAÇA DO SAPO - A VOZ DA ALMA</item>
+        <item>17:00 - FRENTE DO PQ DA CIDADE SJC - FEIRA NOTURNA (ATÉ 22H)</item>
+        <item>19:00 - BARBARESCO CENTER VALE - RODI E CESINHA</item>
+        <item>19:00 - ESPAÇO PIRAQUARA - ORQUESTRA DE VIOLA CAIPIRA</item>
+        <item>19:30 - SESC SJC - CIRCO: PROFISSIONALIZAÇÃO, PRODUÇÃO E MERCADO DE TRABALHO</item>
+        <item>19:30 - TEATRO METRÓPOLE - DANÇA: A PRINCESA E O SAPO</item>
+        <item>19:30 - TRIETTO - MARCELO SERRANO</item>
+        <item>20:00 - LADO B - ROCK RURAL COM GIOVANNY DEL VALE</item>
+        <item>20:00 - O FUNIL - SAMBA DA FEIRA</item>
+        <item>20:00 - O JARDIM CULTURAL TAUBATÉ - FÁBIO E GUILHERME</item>
+        <item>20:00 - O TURCO GORDO - UNPLUGGED ZEPPELIN</item>
+        <item>20:00 - SALOON COUNTRY CHICO LOKO - POPÓ DA PERCUSSÃO E CONVIDADOS</item>
+        <item>20:00 - SANTO COPO - UNIÃO MOTORCYCLE CLUBS ROCK AND BLUES</item>
+        <item>20:00 - SESC SJC - CINEMA: GREATER THINGS (PAGO NÃO SÓCIO)</item>
+        <item>20:00 - TEATRO MUNICIPAL - SÉRIE PRIMAVERA LOUCOS POR CLÁSSICOS</item>
+        <item>20:30 - SANTONOFRE - 50TH PLUS BLUES</item>
+        <item>21:00 - BOTECO CHAPARRAL - FABIO FARIA</item>
+        <item>21:00 - DUNLUCE IRISH PUB - LUCAS E PRISCILA NO LOUNGE</item>
+        <item>22:00 - DUNLUCE IRISH PUB - HYPNOTZD MUSIC</item>
+        <item>23:00 - O JARDIM CULTURAL UBATUBA - NAKO E RAFAEL</item>
+    </string-array>
+
+    <string-array name="cbjr">
+        <item>BOCAS ORDINÁRIAS APRESENTA SEU ESPECIAL "CHARLIE BROWN JR".</item>
+        <item> </item>
+        <item>Em um show onde passaremos por todas as fases da banda, relembrando as músicas que fizeram parte da vida de todos, uma noite de celebração a toda história do Charlie Brown Jr.</item>
+        <item> </item>
+        <item>O show ocorre às 20 horas em ponto !</item>
+        <item> </item>
+        <item>Entrada Franca</item>
+        <item>Classificação livre</item>
+        <item>Skate</item>
+        <item>Graffiti</item>
+        <item>Rock</item>
+        <item>Reggae</item>
+        <item>Rap</item>
+        <item>Muito Ritmo, Ritual e Responsa.</item>
+    </string-array>
+</resources>
